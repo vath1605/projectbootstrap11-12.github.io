@@ -1,0 +1,49 @@
+:root{
+    --green-color: #70c45d;
+    --font-main: "Poppins", serif;
+    --bg-green:#F0F7F1;
+}
+*{
+    font-family: var(--font-main);
+}
+span{
+    color: var(--green-color);
+}
+#home{
+    color: var(--green-color);
+}
+.nav-item{
+    a:hover{
+        color: var(--green-color) !important;
+    }
+}
+.myBg1{
+    background-color: var(--bg-green);
+}
+#myBtn1{
+    background-color: var(--green-color);
+}
+#myBtn2{
+    color: var(--green-color);
+}
+.myCard1{
+    transition: all 200ms ease;
+    svg{
+        color: var(--green-color);
+    }
+}
+.myCard1:hover{
+    background-color: var(--green-color) !important;
+    color: var(--bg-green);
+    svg{
+        color: var(--bg-green);
+    }
+}
+.myBg2{
+    ul{
+        list-style-image: url(../assets/icon/icCheck.png) !important;
+    }
+    .myBtn1{
+        background-color: var(--green-color);
+    }
+}
