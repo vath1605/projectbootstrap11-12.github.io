@@ -143,3 +143,62 @@ span{
     background-color: #deefd9;
     color: var(--green-color);
 }
+.myBtn4{
+    background-color: #deefd9;
+    color: var(--green-color);
+}
+.cardPrice{
+    height: 525px;
+    background-color: white !important;
+    transition: all 250ms ease-in-out;
+}
+.cardPrice:hover{
+    transform: scale(1.08);
+}
+.btnBuy{
+    border: 1px solid var(--green-color);
+    color: var(--green-color);
+}
+#card1{
+    .li1{
+        color:#23c999 ;
+    }
+    svg{
+        fill:#23c999 ;
+    }
+}
+#card2{
+    .li1{
+        color:#0ccaf0 ;
+    }
+    svg{
+        fill:#0ccaf0 ;
+    }
+}
+#card3{
+    .li1{
+        color:#fd7e14 ;
+    }
+    svg{
+        fill:#fd7e14 ;
+    }
+}
+#card4{
+    .li1{
+        color:#0f6efc ;
+    }
+    svg{
+        fill:#0f6efc ;
+    }
+}
+.myBadge{
+    height: 30px !important;
+    place-items: center;
+    transform: rotate(45deg);
+    background-color: var(--green-color) !important;
+    left: 40%;
+    bottom: 91%;
+    p{
+        font-size: 10px;
+    }
+}
