@@ -6,6 +6,9 @@
 *{
     font-family: var(--font-main);
 }
+.myNav{
+    z-index: 99;
+}
 span{
     color: var(--green-color);
 }
@@ -45,5 +48,98 @@ span{
     }
     .myBtn1{
         background-color: var(--green-color);
+        svg{
+            transition: all 200ms ease-in-out;
+        }
     }
+    .myBtn1:hover{
+        background-color: #8ccd7d;
+        svg{
+            transform: translateX(5px);
+        }
+    }
+}
+.myBg3{
+    .myBtn2{
+        background-color: var(--bg-green);
+        color: var(--green-color);
+    }
+    .mySvg{
+        background-color: var(--green-color);
+        width: 75px;
+        height: 75px;
+        display: grid;
+        place-items: center;
+    }
+    .myCard3{
+        transition: all 200ms ease-in-out;
+        background-color: white !important;
+        border-radius: 10px !important;
+        a{
+            transition: all 200ms ease-in-out;
+        }
+    }
+    .myCard3:hover{
+        background-color: white !important;
+        border-radius: 10px !important;
+        a{
+            color: var(--green-color) !important;
+        }
+    }
+
+}
+.bgLay{
+    transition: all 200ms ease-in-out;
+    .bgsvg{
+        width: 50px !important;
+        height: 50px !important;
+        background-color: var(--green-color) !important;
+        place-items: center;
+        svg{
+            fill: white !important;
+        }
+    }
+    .bgCard{
+        background-color: var(--green-color) !important;
+        border-radius: 15px !important;
+
+        .myCard3{
+            transition: all 200ms ease-in-out;
+        }
+    }
+
+}
+.bgLay:hover{
+    transform: translateY(-5px) !important;
+    .bgCard{
+        background-color: var(--green-color) !important;
+        border-radius: 15px !important;
+
+        .myCard3{
+            transform: translateY(-5px) !important;
+        }
+    }
+
+}
+.bg2{
+    background-color: var(--bg-green) !important;
+    .bgCheck{
+        transition: all 200ms ease-in-out;
+        width: 35px;
+        height: 35px;
+        background-color: #dbf4df !important;
+        place-items: center;
+        svg{
+            fill: var(--green-color);
+            transition: all 200ms ease-in-out;
+        }
+    }
+    .myCard4{
+        height: 65px;
+    }
+}
+
+.myBtn3{
+    background-color: #deefd9;
+    color: var(--green-color);
 }
